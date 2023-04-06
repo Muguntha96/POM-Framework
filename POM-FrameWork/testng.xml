@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+	<test name="Login Test">
+		<classes>
+			<class name="org.pagetestcase.LoginTestCase" />
+
+		</classes>
+
+
+	</test>
+<test name="Admin Test">
+		<classes>
+			<class name="org.pagetestcase.AdminTestCase" />
+
+		</classes>
+
+
+	</test>
+	<test name="POM Test">
+		<classes>
+			<class name="org.pagefactoryTestCase.PageFactoryTestCase" />
+
+		</classes>
+
+
+	</test>
+	<test name="no findby Test">
+		<classes>
+			<class name="org.nofindbytestcase.NoFindByTestCase" />
+
+		</classes>
+
+
+	</test>
+	
+
+	
+</suite>
